@@ -1,0 +1,20 @@
+body, html, .project_body {
+  height: 100%;
+}
+
+a {
+    color: black
+}
+
+a:hover{
+    color: gray
+}
+
+.link {
+    color: white
+}
+
+.link:hover{
+    color: gray
+}
+

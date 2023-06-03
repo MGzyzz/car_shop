@@ -1,0 +1,15 @@
+{% extends 'pages/base.html'  %}
+
+{% block content %}
+<div class="container">
+  <form action="/car" method="get">
+  <div class="mb-3">
+    <label for="searchInput" class="form-label mt-3">Search by ID</label>
+    <input type="text" class="form-control" id="searchInput" name="id" placeholder="Enter ID">
+  </div>
+  <button type="submit" class="btn btn-primary mb-3">Search</button>
+</form>
+  <a href="/" class="link-create link">Return to home page</a>
+
+</div>
+{% endblock %}
